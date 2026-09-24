@@ -1,0 +1,194 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOLYA AUto — Премиальная автошкола</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header__container">
+            <a href="#" class="logo" id="logoLink">
+                <span class="logo__icon">⚡</span>
+                <span class="logo__text" id="logoText">KOLYA AUto</span>
+            </a>
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__link">О нас</a></li>
+                    <li><a href="#categories" class="nav__link">Категории</a></li>
+                    <li><a href="#program" class="nav__link">Программа</a></li>
+                    <li><a href="#cars" class="nav__link">Автомобили</a></li>
+                    <li><a href="#instructors" class="nav__link">Инструкторы</a></li>
+                    <li><a href="#prices" class="nav__link">Цены</a></li>
+                    <li><a href="#reviews" class="nav__link">Отзывы</a></li>
+                    <li><a href="#gallery" class="nav__link">Галерея</a></li>
+                    <li><a href="#contacts" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <a href="#" class="btn btn--whatsapp" id="headerWhatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <button class="burger" id="burgerBtn" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <div class="hero__overlay"></div>
+            <div class="container hero__container">
+                <h1 class="hero__title" id="heroTitle">KOLYA AUto</h1>
+                <p class="hero__subtitle" id="heroSubtitle">Получи водительские права уверенно</p>
+                <p class="hero__desc" id="heroDesc">Теория + практика + подготовка к экзамену.</p>
+                <div class="hero__buttons">
+                    <a href="#form" class="btn btn--primary btn--large">Записаться на обучение</a>
+                    <a href="#about" class="btn btn--outline btn--large">Узнать больше</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section__title">🏫 О нас</h2>
+                <div class="about__content" id="aboutContent"></div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="section section--dark" id="categories">
+            <div class="container">
+                <h2 class="section__title">🚘 Категории прав</h2>
+                <div class="grid grid--4" id="categoriesGrid"></div>
+            </div>
+        </section>
+
+        <!-- Program -->
+        <section class="section" id="program">
+            <div class="container">
+                <h2 class="section__title">📚 Программа обучения</h2>
+                <div class="program__grid" id="programGrid"></div>
+            </div>
+        </section>
+
+        <!-- Cars -->
+        <section class="section section--dark" id="cars">
+            <div class="container">
+                <h2 class="section__title">🚗 Автомобили</h2>
+                <div class="grid grid--3" id="carsGrid"></div>
+            </div>
+        </section>
+
+        <!-- Instructors -->
+        <section class="section" id="instructors">
+            <div class="container">
+                <h2 class="section__title">👨‍🏫 Инструкторы</h2>
+                <div class="grid grid--4" id="instructorsGrid"></div>
+            </div>
+        </section>
+
+        <!-- Prices -->
+        <section class="section section--dark" id="prices">
+            <div class="container">
+                <h2 class="section__title">💰 Цены</h2>
+                <div class="prices__grid" id="pricesGrid"></div>
+            </div>
+        </section>
+
+        <!-- Reviews Slider -->
+        <section class="section" id="reviews">
+            <div class="container">
+                <h2 class="section__title">⭐ Отзывы</h2>
+                <div class="slider" id="reviewsSlider">
+                    <div class="slider__track" id="reviewsTrack"></div>
+                    <button class="slider__btn slider__btn--prev" id="prevReview"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider__btn slider__btn--next" id="nextReview"><i class="fas fa-chevron-right"></i></button>
+                    <div class="slider__dots" id="sliderDots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="section section--dark" id="gallery">
+            <div class="container">
+                <h2 class="section__title">📸 Галерея</h2>
+                <div class="gallery__grid" id="galleryGrid"></div>
+            </div>
+        </section>
+
+        <!-- Contacts & Map -->
+        <section class="section" id="contacts">
+            <div class="container">
+                <h2 class="section__title">📍 Контакты и карта</h2>
+                <div class="contacts__wrapper">
+                    <div class="contacts__info" id="contactsInfo"></div>
+                    <div class="contacts__map" id="contactsMap"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form -->
+        <section class="section section--dark" id="form">
+            <div class="container container--narrow">
+                <h2 class="section__title">📝 Форма записи</h2>
+                <form class="form" id="bookingForm" novalidate>
+                    <div class="form__group">
+                        <label for="name">Ваше имя *</label>
+                        <input type="text" id="name" name="name" placeholder="Тургунов МУхаммад" required>
+                        <span class="form__error" id="nameError"></span>
+                    </div>
+                    <div class="form__group">
+                        <label for="phone">Телефон *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+996 22 071 52 05" required>
+                        <span class="form__error" id="phoneError"></span>
+                    </div>
+                    <div class="form__group">
+                        <label for="category">Категория</label>
+                        <select id="category" name="category"></select>
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Ваш вопрос..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+                    <p class="form__note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <p id="footerText"></p>
+            <div class="footer__socials" id="footerSocials"></div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="#" class="whatsapp-float" id="whatsappFloat" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox__close" id="lightboxClose">&times;</span>
+        <img src="" alt="" class="lightbox__img" id="lightboxImg">
+        <button class="lightbox__prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox__next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

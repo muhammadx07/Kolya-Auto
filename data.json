@@ -1,0 +1,73 @@
+{
+    "name": "KOLYA AUto",
+    "tagline": "Получи водительские права уверенно",
+    "heroDesc": "Теория + практика + подготовка к экзамену.",
+    "phone": "+996 22 071 52 05",
+    "whatsapp": "996220715205",
+    "email": "rizo41117@gmail.com",
+    "address": "улица Тарсус, 1/1, город Манас Кыргызстан",
+    "aboutTitle": "Автошкола нового поколения",
+    "about": "KOLYA AUto — это премиальная автошкола, где каждый ученик получает индивидуальный подход. Мы используем современные методики обучения и новейший автопарк.",
+    "aboutExtra": "Наши инструкторы — профессионалы с многолетним опытом, которые помогут вам не только сдать экзамен, но и стать уверенным водителем.",
+    "stats": {
+        "years": "10",
+        "graduates": "5000",
+        "success": "98"
+    },
+    "categories": [
+        { "name": "Категория A", "icon": "🏍️", "description": "Мотоциклы и лёгкие квадрициклы" },
+        { "name": "Категория B", "icon": "🚗", "description": "Легковые автомобили до 3.5 тонн" },
+        { "name": "Категория C", "icon": "🚛", "description": "Грузовые автомобили свыше 3.5 тонн" },
+        { "name": "Категория D", "icon": "🚌", "description": "Автобусы с более чем 8 пассажирами" }
+    ],
+    "program": [
+        { "title": "Теоретический курс", "description": "ПДД, основы безопасности, психология вождения", "hours": "130" },
+        { "title": "Практическое вождение", "description": "Отработка навыков на закрытой площадке и в городе", "hours": "56" },
+        { "title": "Экзаменационная подготовка", "description": "Пробные экзамены в формате ГИБДД", "hours": "10" },
+        { "title": "Первая помощь", "description": "Медицинская подготовка при ДТП", "hours": "24" },
+        { "title": "Вождение в сложных условиях", "description": "Ночное вождение, гололёд, дождь", "hours": "12" },
+        { "title": "Психология вождения", "description": "Управление эмоциями за рулём", "hours": "8" }
+    ],
+    "cars": [
+        { "name": "Hyundai Solaris", "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80", "description": "Надёжный седан для обучения категории B" },
+        { "name": "Kia Rio", "image": "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?w=600&q=80", "description": "Современный автомобиль с АКПП" },
+        { "name": "Ford Focus", "image": "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&q=80", "description": "Комфортный автомобиль для города" },
+        { "name": "Volkswagen Polo", "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&q=80", "description": "Экономичный и манёвренный" },
+        { "name": "Lada Vesta", "image": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&q=80", "description": "Практичный выбор для обучения" },
+        { "name": "Hyundai Tucson", "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&q=80", "description": "Кроссовер для комфортного обучения" }
+    ],
+    "instructors": [
+        { "name": "Николай Петров", "image": "https://randomuser.me/api/portraits/men/32.jpg", "experience": "15 лет", "description": "Мастер спорта по автоспорту" },
+        { "name": "Анна Смирнова", "image": "https://randomuser.me/api/portraits/women/44.jpg", "experience": "10 лет", "description": "Специалист по женскому вождению" },
+        { "name": "Сергей Иванов", "image": "https://randomuser.me/api/portraits/men/45.jpg", "experience": "12 лет", "description": "Эксперт по экстремальному вождению" },
+        { "name": "Елена Козлова", "image": "https://randomuser.me/api/portraits/women/65.jpg", "experience": "8 лет", "description": "Терпеливый инструктор для новичков" }
+    ],
+    "prices": [
+        { "name": "Стандарт", "price": "35 000", "popular": false, "features": ["Теория 130 часов", "Практика 56 часов", "Учебные материалы", "Экзаменационная подготовка"] },
+        { "name": "Комфорт", "price": "45 000", "popular": true, "features": ["Всё из Стандарт", "Индивидуальный график", "Персональный инструктор", "Дополнительное вождение 10 ч", "Подготовка к экзамену ГИБДД"] },
+        { "name": "Премиум", "price": "60 000", "popular": false, "features": ["Всё из Комфорт", "Неограниченное вождение", "VIP-инструктор", "Автомобиль на выбор", "Помощь в записи на экзамен", "Гарантия сдачи"] }
+    ],
+    "reviews": [
+        { "author": "Дмитрий К.", "text": "Отличная автошкола! Сдал с первого раза благодаря профессиональным инструкторам. Особенно благодарен Николаю за терпение и чёткие объяснения.", "rating": 5 },
+        { "author": "Мария С.", "text": "Прекрасное обучение! Анна — замечательный инструктор, объясняет всё доступно. Машины новые и комфортные. Рекомендую!", "rating": 5 },
+        { "author": "Алексей В.", "text": "Прошёл обучение на категорию B. Всё организовано на высшем уровне. Теория понятная, практики достаточно. Экзамен сдал с первого раза!", "rating": 5 },
+        { "author": "Ольга Н.", "text": "Спасибо KOLYA AUto за уверенность за рулём! После обучения чувствую себя полноценным водителем. Инструкторы — профессионалы своего дела.", "rating": 5 },
+        { "author": "Иван П.", "text": "Лучшая автошкола в городе! Современный подход, гибкий график, отличные инструкторы. Отдельное спасибо за подготовку к экзамену.", "rating": 5 }
+    ],
+    "gallery": [
+        "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80",
+        "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80",
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&q=80",
+        "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?w=800&q=80",
+        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80"
+    ],
+    "socials": [
+        { "name": "VK", "url": "https://vk.com", "icon": "fab fa-vk" },
+        { "name": "Telegram", "url": "https://t.me", "icon": "fab fa-telegram" },
+        { "name": "YouTube", "url": "https://youtube.com", "icon": "fab fa-youtube" },
+        { "name": "Instagram", "url": "https://instagram.com", "icon": "fab fa-instagram" }
+    ]
+}
